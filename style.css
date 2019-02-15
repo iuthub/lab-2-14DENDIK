@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "HarryPotter";
+  src: url('fonts/HARRP___.TTF') format('truetype');
+}
+
+body, p {
+  margin: 0;
+  font-family: "HarryPotter";
+}
+
+.container {
+  font-size: 0;
+
+}
+
+.container  div {
+  font-size: 1rem;
+}
+
+.my_info {
+  background-color: #A21F24;
+  color: #FD9622;
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+  line-height: 80px;
+  text-align: center;
+}
+
+.my_info img {
+  height: 100px;
+}
+
+.my_info h1 {
+  float: left;
+  font-size: 45px;
+  margin: 10px 10px 5px 10px;
+}
+
+.quality {
+  margin: 10px 10px 5px 10px;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  list-style-type: none;
+}
+
+.quality_list {
+  display: inline;
+}
+
+.my_classes {
+  border-top: 5px solid #FD9622;
+  text-align: center;
+  color: #FD9622;
+  background-color: #151821;
+  display: inline-block;
+  width: 100%;
+}
+
+.my_classes ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.my_classes li {
+  width: 25%;
+  float: left;
+  margin: 10px 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.my_favorite {
+  border-top: 5px solid #A21F24;
+  text-align: center;
+  background-color: #FD9622;
+  display: inline-block;
+  width: 100%;
+  color: #A21F24;
+}
+
+.card {
+  width: 25%;
+  border-radius: 10px;
+  border: 2px solid #151821;
+  padding: 10px;
+  display: inline-block;
+  background-color: #A21F24;
+  color: #FD9622;
+  margin: 20px;
+}
+
+.card p {
+  height: 150px;
+}
+
+.info {
+  border-top: 2px solid #151821;
+  border-bottom: 2px solid #151821;
+}
+
+.movie_pic {
+  width: 140px;
+  height: 209px;
+}
+
+.imdb_logo {
+  vertical-align: middle;
+  width: 25px;
+  height: 15px;
+}
+
+.me_sad_happy {
+  overflow: hidden;
+  width: 100%;
+  color: #FD9622;
+}
+
+.me_sad_happy img {
+  width: 360px;
+  height: 250px;
+  padding: 25px;
+  border-radius: 100px;
+}
+
+.me_happy {
+  float: left;
+  width: 50%;
+  background-color: #A21F24;
+  border-top: 5px solid #151821;
+  border-bottom: 5px solid #151821;
+  text-align: center;
+}
+
+.me_sad {
+  float: left;
+  width: 50%;
+  background-color: #151821;
+  border-top: 5px solid #A21F24;
+  border-bottom: 5px solid #A21F24;
+  text-align: center;
+}
